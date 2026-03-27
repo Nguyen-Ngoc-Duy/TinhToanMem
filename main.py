@@ -62,6 +62,17 @@ print("\n===== KIỂM TRA =====")
 print("Mean sau scale:", np.mean(X_train, axis=0))
 print("Std sau scale:", np.std(X_train, axis=0))
 
+print("\n===== THỐNG KÊ LINEAR REGRESSION =====")
+print("Max:", max_value(y_pred))
+print("Min:", min_value(y_pred))
+print("Mean:", mean_value(y_pred))
+print("Std:", std_value(y_pred))
+
+print("\n===== THỐNG KÊ NEURAL NETWORK =====")
+print("Max:", max_value(y_pred_nn))
+print("Min:", min_value(y_pred_nn))
+print("Mean:", mean_value(y_pred_nn))
+print("Std:", std_value(y_pred_nn))
 
 print("\n===== LINEAR REGRESSION =====")
 print("MSE:", mse(y_test_real, y_pred))
